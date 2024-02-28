@@ -12,7 +12,7 @@
   <script setup lang="ts">
   import { ref } from 'vue';
   import TaskItem from './TaskItem.vue';
-  import { TasksData } from '@/data/TasksData';
+  import TasksData  from '@/data/TasksData';
   import type { ITask } from '@/interfaces/ITask';
   
   const tasks = ref<ITask[]>(TasksData);

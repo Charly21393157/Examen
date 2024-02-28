@@ -7,7 +7,7 @@
   </template>
   
   <script setup lang="ts">
-  import { defineProps, defineEmits } from 'vue';
+  // import { defineProps, defineEmits } from 'vue';
   import type { ITask } from '@/interfaces/ITask';
   
   const props = defineProps<{ task: ITask }>();
